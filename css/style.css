@@ -1,0 +1,63 @@
+/* Lets load up a Google Font */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+/* Basic Reset */
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+/* Some fancy BG */
+body {
+    background: url('http://thecodeplayer.com/uploads/media/bluebg.jpg') center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.pricing_table {
+    width: 600px;
+    color: #fff;
+    font-size: 12px;
+    font-family: Ubuntu, arial, verdana;
+    line-height: 150%;
+    overflow: hidden;
+    text-align: center;
+    margin: 100px auto 0 auto;
+}
+
+/* Only the direct LI child, not the .features li */
+.pricing_table > li {
+    background: linear-gradient(#666, #333);
+    width: 33.33%;
+    float: left;
+    list-style-type: none;
+}
+
+.pricing_table h3 {
+    text-transform: uppercase;
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pricing_table .price_body {
+    width: 125px;
+    height: 125px;
+    margin: 0 auto 15px auto;
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+
+.pricing_table .price {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* Lets vertically center align the price now */
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.pricing_table .features li {
+    list-style-type: none;
+    padding: 5px 0;
+}
