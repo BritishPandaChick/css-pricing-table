@@ -19,7 +19,6 @@ body {
     font-size: 12px;
     font-family: Ubuntu, arial, verdana;
     line-height: 150%;
-    overflow: hidden;
     text-align: center;
     margin: 100px auto 0 auto;
 }
@@ -53,6 +52,7 @@ body {
     margin: 0 auto 15px auto;
     border: 2px solid #fff;
     border-radius: 100%;
+    display: table;
 }
 
 .pricing_table .price {
